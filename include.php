@@ -22,7 +22,7 @@ function UninstallPlugin_SmallPIC(){
 
 function SmallPIC_Url(){
 	global $zbp,$article;
-	echo '<div><label for="meta_teSeTuPian" class="editinputname">特色图片链接地址:</label><br /><input type="text" name="meta_teSeTuPian" value="'.htmlspecialchars($article->Metas->$SmallPIC).'"/><br /><img src="'.$article->Metas->$SmallPIC.'" alt="暂无图片" style="max-width:190px" /></div>';
+	echo '<div><label for="meta_SmallPIC" class="editinputname">特色图片链接地址:</label><br /><input type="text" name="meta_SmallPIC" value="'.htmlspecialchars($article->Metas->$SmallPIC).'"/><br /><img src="'.$article->Metas->$SmallPIC.'" alt="暂无图片" style="max-width:190px" /></div>';
 	// SmallPIC_Response('SmallPIC',$article);
 }
 
